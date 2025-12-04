@@ -10,7 +10,7 @@ class SnakeAndLadder:
     
 
     def roll_dice(self):
-        return random.randint(1,7)
+        return random.randint(1,6)
     
     def move_player(self, player, dice):
         new_position = self.players_position[player] + dice
